@@ -1,0 +1,21 @@
+body { background: #e0e0e0; font-family: monospace;}
+a {display: none;}
+#wrap { width: 70%; margin: 30px auto; color: white; text-align: center;}
+#wrap input { padding: 12px 20px; margin: 4px; background:#f3f3f3; border:0;color:black; font-weight: bold; font-family: 18px; border-bottom: 4px solid #ccc;}
+#uservalue { border:0;width:90%; height:150px; border-bottom: 6px solid #ccc; border-right: 6px solid #ccc; padding:10px;}
+#answer {width:90%; margin: 0 auto;padding: 20px 10px; background: #f3f3f3;border-bottom: 6px solid #ccc; border-right: 6px solid #ccc;color:black;word-wrap: break-word; font-size: 16px;font-weight: bold;}
+#uservalue:focus,#uservalue:hover{ outline:0;border-bottom: 6px solid tomato; border-right: 6px solid tomato; }
+#wrap input:hover {background:tomato; cursor: pointer; color:white;border-bottom: 4px solid #fd3b01 ;}
+footer { background: #0d0d0d; color: white; text-align: center; position:fixed; bottom:0;width: 100%;}
+footer span { padding:10px; display:block; }
+code {float: left; padding-left:10px;font-style: italic;opacity: .2;}
+
+@media only screen and (min-height:1100px) {
+
+    #wrap { width: 100%; margin: 20px auto; color: white; text-align: center; zoom: 2;}
+    #wrap input { display: inline; width: 93%; margin: 4px auto;word-wrap: break-word;zoom: 2;border-bottom: 3px solid #ccc;}
+    #answer {zoom: 2; padding: 10px; width: 85%;border:0;border-bottom: 4px solid #ccc; }
+    #uservalue {zoom: 2;width: 85%;border:0;border-bottom: 4px solid #ccc;}
+    code {zoom: 1.1;}
+    
+}
